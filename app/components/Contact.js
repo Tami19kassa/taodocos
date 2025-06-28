@@ -8,9 +8,9 @@ import { Mail, Send, Loader2 } from 'lucide-react';
 export default function Contact({ dict }) {
   // IMPORTANT: Replace with your Telegram username and the email you want to receive messages at.
   const yourTelegramUsername = "tefera_tilahun";
-  //const yourReceivingEmail = "taodocos1@gmail.com";
+  const yourReceivingEmail = "taodocos1@gmail.com";
   // The corrected line for testing:
-const yourReceivingEmail = "ademyinam2@gmail.com";
+//const yourReceivingEmail = "ademyinam2@gmail.com";
 
   // State for form fields and submission status remains the same
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
