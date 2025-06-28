@@ -1,0 +1,44 @@
+/* Import new elegant serif font for headings */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply scroll-smooth bg-gray-50 text-gray-700 dark:bg-gray-900 dark:text-gray-300;
+  }
+
+  /* Style for the textured dark mode background */
+  .dark body {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+
+  /* Custom heading styles */
+  h1, h2, h3 {
+    @apply font-serif text-gray-900 dark:text-white;
+  }
+}
+
+/* Apply the fonts based on the lang attribute */
+:lang(en) {
+  --font-family-body: 'Inter', sans-serif;
+  --font-family-serif: 'Playfair Display', serif;
+}
+:lang(am) {
+  --font-family-body: 'Noto Sans Ethiopic', sans-serif;
+  --font-family-serif: 'Noto Sans Ethiopic', sans-serif;
+  --font-weight-serif: 700;
+}
+
+body {
+  font-family: var(--font-family-body);
+}
+
+.font-serif {
+  font-family: var(--font-family-serif);
+  font-weight: var(--font-weight-serif, 700);
+}
