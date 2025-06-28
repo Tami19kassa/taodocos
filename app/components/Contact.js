@@ -10,7 +10,7 @@ export default function Contact({ dict }) {
   const yourTelegramUsername = "tefera_tilahun";
   const yourReceivingEmail = "taodocos1@gmail.com";
   // The corrected line for testing:
-//const yourReceivingEmail = "ademyinam2@gmail.com";
+//const yourReceivingEmail = "mikoxv7@gmail.com";
 
   // State for form fields and submission status remains the same
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
