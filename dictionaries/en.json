@@ -28,8 +28,8 @@
   },
    "about": {
     "title": "Your Teacher & Guide",
-    "greeting": "Selam! I am [Your Name]",
-    "paragraph": "I have been passionately playing and studying the Begena for over 15 years. Rooted in the timeless traditions of the Ethiopian Orthodox Church, my mission is to pass on this divine art to a new generation. I believe music is a prayer, and I am here to guide you on every step of your spiritual and musical journey."
+    "greeting": "Selam! I am Tefera Tilahun",
+    "paragraph": "I have been passionately playing and studying the Begena for over 10 years. Rooted in the timeless traditions of the Ethiopian Orthodox Church, my mission is to pass on this divine art to a new generation. I believe music is a prayer, and I am here to guide you on every step of your spiritual and musical journey."
   },
   "features": {
     "title": "Why Learn With Us?",
@@ -51,16 +51,19 @@
     "basic_feature2": "Access to Community Chat",
     "basic_feature3": "Beginner Song Sheets",
     "standard_title": "Standard",
-    "standard_price": "$100",
+    "standard_price": "$57",
     "standard_feature1": "Weekly Individual Lessons",
     "standard_feature2": "Personalized Feedback",
     "standard_feature3": "All Basic Features",
     "premium_title": "Premium",
-    "premium_price": "$150",
+    "premium_price": "$65",
     "premium_feature1": "Weekly Individual Lessons",
     "premium_feature2": "Extra Learning Materials",
     "premium_feature3": "Priority Scheduling",
-    "cta": "Get Started"
+    "cta": "Get Started",
+    "month":"month",
+    "standard":"standard",
+    "hours":"total 12 hours" 
   },
   "gallery": {
     "title": "Our Community in Harmony"
@@ -72,12 +75,32 @@
     "student2_name": "Daniel M.",
     "student2_review": "\"The individual lessons are fantastic. I've progressed so much faster than I expected. Highly recommend to anyone serious about learning.\""
   },
+ 
   "contact": {
     "title": "Get in Touch",
     "subtitle": "Have questions? We'd love to hear from you. Reach out via email or connect with me directly on Telegram.",
-    "email_cta": "Send Us an Email",
-    "telegram_cta": "Chat on Telegram"
+    "form_name": "Your Name",
+    "form_email": "Your Email",
+    "form_message": "Your Message",
+    "form_sending": "Sending...",
+    "email_cta": "Send Message",
+    "or": "or",
+    "telegram_cta": "Message on Telegram",
+    "success_message": "Thank you! Your message has been sent successfully.",
+    "error_message": "Sorry, something went wrong. Please try again later."
   },
+   "performance": {
+    "title": "Student Performances",
+    "subtitle": "Listen to the beautiful sounds created by our talented students as they master the art of the Begena.",
+    "by": "Performed by:",
+    "performance1_title": "Classical Melody",
+    "performance1_performer": "Student Name One",
+    "performance2_title": "Hymn of Praise",
+    "performance2_performer": "Student Name Two",
+    "performance3_title": "Serene Evening Song",
+    "performance3_performer": "Student Name Three"
+  },
+
   "footer": {
     "copyright": "Begena Lessons. All Rights Reserved."
   }
