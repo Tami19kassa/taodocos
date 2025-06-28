@@ -14,8 +14,8 @@ import Marquee from "react-fast-marquee";
 const testimonials = [
   {
     name: {
-      en: "Anteneh Gode",
-      am: "አንተነህ ጎዴ",
+      en: "Anterh Gode",
+      am: "አንተህ ጎዴ", // Example Amharic name
     },
     review: {
       en: "Tefere at the Taodocos Institute is a skilled and patient harp trainer who knows the instrument inside and out.",
@@ -37,7 +37,7 @@ const testimonials = [
   {
     name: {
       en: "Kidist",
-      am: "ቅድስት",
+      am: "ኪዲስት", // Example Amharic name
     },
     review: {
       en: "I found him on a whim and now my house is filled with begena sounds again. He is an inspiration to learn from.",
@@ -47,8 +47,8 @@ const testimonials = [
   },
   {
     name: {
-      en: "Abdulkelemsis",
-      am: "አብዱልቀለምሲስ",
+      en: "Abdulkemsis",
+      am: "አብዱልከምሲስ", // Example Amharic name
     },
     review: {
       en: "I met Tefera when he was teaching 'Begena' at St. John's Church. When he was teaching, he tried to reach everyone.",
