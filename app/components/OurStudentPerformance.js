@@ -9,7 +9,7 @@
 // =========================================================================
 const studentPerformances = [
   { 
-    id: 'k0YfuD1wDkw', // Placeholder - REPLACE
+    id: 'xTaCqlqQPYI', // Placeholder - REPLACE
     titleKey: 'performance1_title', 
     performerKey: 'performance1_performer' 
   },
